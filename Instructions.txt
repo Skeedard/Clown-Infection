@@ -1,0 +1,18 @@
+Instructions:
+
+1. Unzip project and generate a new UGC folder in the project, then move the "move this into the UGC folder" folder
+into your new UGC folder. If you have a map in another project you'd like to use, migrate it into this new project.
+Drag the ClownInfectionGameLogic into your map instead of the Pavlov game logic, and make sure to select ClownInfectionPlayerProxy
+for the player proxy.
+
+2. Edit the configuration variables to your liking, but make sure to keep balancing in mind, 
+100hp clowns will be at a severe disadvantage if the survivors are given assault rifles.
+
+3. If anything is added to the infected powerups list (ie special items or the TTT phone teleporter),
+make sure to add them to the allowed clown items list in the player proxy variables.
+
+4. To edit special rounds, change the items spawned via the weapon spawns tab in the 
+gamelogic, or set the special round chance to 0 to disable them.
+
+5. That is all information needed. If you need help with clown infection specific problem, 
+ping Skeedard#3181 in the Pavlov Discord infected channel and specify what you need help with.
